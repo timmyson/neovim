@@ -57,3 +57,7 @@
 	path = share/bundle/vim-antlr
 	url = https://github.com/dylon/vim-antlr
 	branch = master
+[submodule "share/bundle/zoomwintab.vim"]
+	path = share/bundle/zoomwintab.vim
+	url = https://github.com/troydm/zoomwintab.vim
+	branch = master

@@ -134,6 +134,12 @@ let g:EclimCompletionMethod = 'omnifunc'          " Required for YCM to work.
 " version control system.
 let g:signify_vcs_list = [ 'git' ]
 
+" ZoomWinTab
+" https://github.com/troydm/zoomwintab.vim
+"
+" Makes <C-w>o toggle zooming in and out
+let g:zoomwintab_hidetabbar=0                     " Don't hide tabbar when zoom.
+
 " Custom Code Folding
 "
 " Vim's default fold text isn't super useful, so we replace it with something
