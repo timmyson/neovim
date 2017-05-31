@@ -110,6 +110,9 @@ let g:list_of_normal_keys = ["h", "j", "k", "l",
 let g:airline_theme='kalisi'                      " Use the kalisi theme!
 let g:airline_powerline_fonts=1                   " Enable powerline fonts.
 set noshowmode                                    " Don't show mode in command line.
+let g:airline#extensions#tabline#enabled=1        " Show the tabline.
+let g:airline#extensions#tabline#buffer_nr_show=1 " Show buffer numbers.
+let g:airline#extensions#tabline#show_tabs=0      " Don't show tabs in tabline.
 
 " YouCompleteMe
 " https://github.com/Valloric/YouCompleteMe
