@@ -28,6 +28,8 @@ set completeopt-=preview                          " Disable completion preview.
 set splitright                                    " Open new split to the right.
 set nohlsearch                                    " Disable highlight search.
 set relativenumber                                " Show relative line numbers.
+set inccommand=nosplit                            " Preview substitutions.
+set copyindent                                    " Copy previous indent on <CR>.
 set number                                        " On current line, show
                                                   " absolute line number.
 
