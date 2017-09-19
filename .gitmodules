@@ -61,3 +61,7 @@
 	path = share/bundle/zoomwintab.vim
 	url = https://github.com/troydm/zoomwintab.vim
 	branch = master
+[submodule "share/bundle/rust.vim"]
+	path = share/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+	branch = master
