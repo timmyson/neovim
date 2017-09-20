@@ -65,3 +65,7 @@
 	path = share/bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
 	branch = master
+[submodule "share/bundle/vim-toml"]
+	path = share/bundle/vim-toml
+	url = https://github.com/cespare/vim-toml
+	branch = master
