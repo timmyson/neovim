@@ -140,6 +140,13 @@ let g:signify_vcs_list = [ 'git' ]
 " Makes <C-w>o toggle zooming in and out
 let g:zoomwintab_hidetabbar=0                     " Don't hide tabbar when zoom.
 
+" Neomake
+" https://github.com/neomake/neomake
+"
+" Asynchronously run programs.
+highlight NeomakeError ctermfg=196
+call neomake#configure#automake('nw', 750)        " Auto-make after 750ms
+
 " Custom Code Folding
 "
 " Vim's default fold text isn't super useful, so we replace it with something
