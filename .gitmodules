@@ -6,10 +6,6 @@
 	path = share/bundle/detectindent
 	url = https://github.com/roryokane/detectindent
 	branch = master
-[submodule "share/bundle/vim-kalisi"]
-	path = share/bundle/vim-kalisi
-	url = https://github.com/freeo/vim-kalisi
-	branch = master
 [submodule "share/bundle/YouCompleteMe"]
 	path = share/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
