@@ -14,7 +14,7 @@ call pathogen#infect()                            " Initialize Pathogen
 "
 " A theme designed with neovim in mind.
 set background=dark                               " Use dark version of theme.
-colorscheme kalisi                                " Use kalisi color scheme.
+colorscheme tim.vim                                " Use kalisi color scheme.
 
 " Tweeks
 "

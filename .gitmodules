@@ -69,3 +69,6 @@
 	path = share/bundle/neomake
 	url = https://github.com/neomake/neomake
 	branch = master
+[submodule "share/bundle/vim-tim"]
+	path = share/bundle/vim-tim
+	url = git@github.com:timmyson/vim-tim.git
